@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Tahoma;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  font-size: 20px;
+}
+.container h1 {
+  text-align: center;
+}
+.container div {
+  margin-bottom: 20px;
+}
+.container .lesson {
+  border: 2px solid red;
+}
+.container .lesson h2 {
+  margin-left: 19px;
+  color: red;
+  text-decoration: underline;
+}
+.container .lesson p {
+  margin-left: 19px;
+}
+.container .Exemple {
+  border: 2px solid blue;
+}
+.container .Exemple h3 {
+  color: green;
+  text-decoration: underline;
+}
+.container .Exemple h3,
+.container .Exemple p {
+  margin-left: 19px;
+}

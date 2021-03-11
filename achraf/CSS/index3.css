@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Tahoma;
+  background-color: aqua;
+}
+.container {
+  width: 800px;
+  margin: 20px auto;
+}
+.container h2 {
+  color: red;
+  text-align: center;
+}
+.container p {
+  color: blue;
+}
+.container div {
+  margin-bottom: 20px;
+  font-size: 20px;
+}

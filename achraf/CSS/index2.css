@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Tahoma;
+  background-color: rgb(220, 235, 11);
+}
+
+.active {
+  display: none;
+}
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+.container h1 {
+  color: red;
+  font-style: italic;
+  text-decoration: underline red 2px;
+}
+.container div {
+  margin: 20px;
+  padding: 10px;
+}
+.container select option {
+  padding: 8px;
+  width: 58px;
+}
+.container div span {
+  color: red;
+}
+.container p {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(0, 47, 255);
+}

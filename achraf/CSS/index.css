@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Tahoma;
+  background-color: rgb(204, 171, 207);
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.container img {
+  display: none;
+  width: 700px;
+  height: 300px;
+  transition: all 1s;
+}
+.container .active {
+  display: block;
+}
+.flex {
+  width: 700px;
+  margin: 40px auto;
+  display: flex;
+}
+.flex div {
+  flex: 1;
+}
+.flex div img {
+  width: 210px;
+  height: 210px;
+}
+.flex div p {
+  margin-right: 5px;
+}
+.menu {
+  overflow: hidden;
+}
+.menu span {
+  width: 50%;
+  cursor: pointer;
+  color: blueviolet;
+  background-color: rgb(220, 233, 103);
+}
+.menu .left {
+  float: left;
+}
+.menu .right {
+  float: right;
+}
